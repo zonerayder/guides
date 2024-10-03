@@ -1,0 +1,25 @@
+apt install omxplayer
+cd /boot/config.txt
+
+cambiar el modo y desactivar el over scan poniendo 1
+comentar el grupo y el modo 
+throw a 'disable_overscan=1' into your /boot/config.txt file to fix that black border
+
+********************************
+comandos de reproducción
+********************************
+
+omxplayer video.mp4
+omxplayer -b --loop --win "0 0 1920 1080" /ruta/a/tu/video.mp4
+
+
+ARMv7 procesor rev 3:
+
+Raspberry Pi 2 Model B
+Raspberry Pi 3 Model B
+Raspberry Pi 3 Model B+
+Raspberry Pi Zero W
+
+automatización con raspberry
+
+omxplayer -o local /media/EHENSLEY/Marvel\'s\ Avengers\ Assemble\ \(2012)\ Watch\ the\ Official\ trailer -\ HD.mp3
